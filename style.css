@@ -1,0 +1,83 @@
+body { 
+    margin: 0; 
+} 
+
+h3{ 
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 36px; 
+    margin: 0px 0px 15px 0px;
+} 
+nav{ 
+    margin-top: 26px; 
+} 
+button{ 
+    width: 45px; 
+    height: 45px; 
+    background-color: transparent; 
+    color: #9AABD8; 
+    font-size: 18px; 
+    text-align: center; 
+    vertical-align: middle; 
+    border: 2px solid #9AABD8; 
+    font-family: CursedTimer; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+nav button:nth-child(2){
+    margin: 0px 10px;
+}
+
+.container { 
+    width: 800px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    margin: 40px auto 0px auto;
+    border-radius: 10px;
+    background-color: #1B244A; 
+    border: 20px solid black;
+} 
+.half-board{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+.bg-score{ 
+    width: 155px; 
+    height: 120px; 
+    background-color: black; 
+    display: flex; 
+    justify-content: center; 
+    /* align-items: center; */ 
+    border-radius: 5px; 
+} 
+.bg-score p{ 
+    font-size: 80px; 
+    height: 150px; 
+    margin-top: 22px; 
+    color: #F94F6D; 
+    font-family: CursedTimer; 
+} 
+.timer{ 
+    height: 80px; 
+    width: 180px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: absolute; 
+    top: 140px; 
+    color: yellowgreen; 
+    font-family: CursedTimer; 
+    font-size: 40px; 
+    background-color: black; 
+    border-radius: 100px; 
+} 
+
+@font-face{ 
+    font-family: CursedTimer; 
+    src: url("./fonts/CursedTimer.ttf"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
