@@ -10,7 +10,7 @@
     "babel-loader": "^7.0",
     "babel-preset-env": "*",
     "babel-preset-react": "*",
-    "html-webpack-plugin": "^5.0.0",
+    "html-webpack-plugin": "^5.0.0"
   },
   "scripts": {
     "build": "webpack",
