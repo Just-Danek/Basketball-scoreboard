@@ -1,6 +1,8 @@
 import React from "react" 
 import HalfBoard from "./components/HalfBoard" 
 import Timer from "./components/Timer" 
+import "./style.css"
+
 
 export default function App(){ 
     const [time, setTime] = React.useState(0) 
