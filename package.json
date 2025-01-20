@@ -9,7 +9,8 @@
     "babel-core": "^6.0",
     "babel-loader": "^7.0",
     "babel-preset-env": "*",
-    "babel-preset-react": "*"
+    "babel-preset-react": "*",
+    "html-webpack-plugin": "^5.0.0",
   },
   "scripts": {
     "build": "webpack",
